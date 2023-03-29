@@ -63,8 +63,9 @@
 		 ========================================================================================================== -->
 
 		<div id="fh5co-hero-wrapper">
+
 			<nav class="container navbar navbar-expand-lg main-navbar-nav navbar-light">
-				<a class="navbar-brand" href="">App</a>
+				<a class="navbar-brand" href="">HeatMaps</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse"
 					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
 					aria-label="Toggle navigation">
@@ -74,25 +75,19 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav nav-items-center ml-auto mr-auto">
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="#"> <span class="sr-only">(current)</span>Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="$('#fh5co-features').goTo();return false;">Intro</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="$('#fh5co-reviews').goTo();return false;">Types</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#"
-								onclick="$('#fh5co-features').goTo();return false;">Features</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#" onclick="$('#fh5co-reviews').goTo();return false;">Reviews</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#"
-								onclick="$('#fh5co-download').goTo();return false;">Download</a>
+								onclick="$('#fh5co-download').goTo();return false;">Application</a>
 						</li>
 					</ul>
-					<div class="social-icons-header">
-						<a href="https://www.facebook.com/fh5co"><i class="fab fa-facebook-f"></i></a>
-						<a href="https://freehtml5.co"><i class="fab fa-instagram"></i></a>
-						<a href="https://www.twitter.com/fh5co"><i class="fab fa-twitter"></i></a>
-					</div>
 				</div>
 			</nav>
 
@@ -139,12 +134,12 @@
 		 ========================================================================================================== -->
 
 		<div class="curved-bg-div wow animated fadeIn" data-wow-delay="0.15s"></div>
-		<div id="fh5co-features" class="fh5co-features-outer">
+		<div class="fh5co-features-outer">
 			<div class="container">
 
 				<div class="row fh5co-features-grid-columns">
 
-					<div class="col-sm-6 in-order-1 wow animated fadeInLeft" data-wow-delay="0.22s">
+					<div id="fh5co-features" class="col-sm-6 in-order-1 wow animated fadeInLeft" data-wow-delay="0.22s">
 						<div class="col-sm-image-container">
 							<img class="img-float-left" src="img/HeatMap.png" alt="smartphone-1">
 						</div>
@@ -152,7 +147,8 @@
 
 					<div class="col-sm-6 in-order-2 sm-6-content wow animated fadeInRight" data-wow-delay="0.22s">
 						<h1>what is a heatmap</h1>
-						<p>A heatmap is a visual representation of data that uses colors to indicate the intensity or
+						<p id="fh5co-reviews">A heatmap is a visual representation of data that uses colors to indicate
+							the intensity or
 							density of values in a dataset. In the context of websites and user behavior, a heatmap can
 							be used to show which parts of a webpage are getting the most attention from users, based on
 							where they click, scroll, and move their mouse. This information can be used to improve the
@@ -162,7 +158,8 @@
 
 					<div class="col-sm-6 in-order-3 sm-6-content wow animated fadeInLeft" data-wow-delay="0.22s">
 						<h1>Types of heat maps</h1>
-						<p>There are different types of heatmaps, including click heatmaps, move heatmaps, and scroll
+						<p id="fh5co-download">There are different types of heatmaps, including click heatmaps, move
+							heatmaps, and scroll
 							heatmaps. Click heatmaps show where users are clicking on a webpage, while move heatmaps
 							track mouse movement and indicate areas of interest. Scroll heatmaps show how far users
 							scroll down a page and where they tend to drop off.</p>
@@ -216,15 +213,15 @@
 						<p class="grid-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cupiditate.
 						</p>
 					</div> -->
-
-					<div class="col-sm-4">
-						<img class="grid-image" src="img/Hotjar.png" alt="Icon-2">
-						<h1 class="grid-title">Hotjar</h1>
-						<p class="grid-desc">Hotjar offers a variety of features for analyzing user behavior on
-							websites, including heatmaps, user surveys, feedback polls, and session recordings
-						</p>
-					</div>
-
+					<center>
+						<div class="col-sm-4">
+							<img class="grid-image" src="img/Hotjar.png" alt="Icon-2">
+							<h1 class="grid-title">Hotjar</h1>
+							<p class="grid-desc">Hotjar offers a variety of features for analyzing user behavior on
+								websites, including heatmaps, user surveys, feedback polls, and session recordings
+							</p>
+						</div>
+					</center>
 					<!-- <div class="col-sm-4">
 						<img class="grid-image" src="img/icon-3.png" alt="Icon-3">
 						<h1 class="grid-title">Unlimited Colors</h1>
