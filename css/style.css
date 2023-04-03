@@ -793,10 +793,12 @@ html {
   }
 
   .img-float-right {
+    width: 100%;
     float: none;
   }
 
   .img-float-left {
+    width: 100%;
     float: none;
   }
 
