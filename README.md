@@ -39,5 +39,5 @@ To use Hotjar, you must create an account and install the Hotjar tracking code o
 
 ## Contributions
 website: Baker Mrad {Bakermrad2}
-Script:  Moetassem Miqati {MoetassemM}
+Script:  Moetassem Mikati {MoetassemM}
 PowerPoint: Ahmad hage {AH2791}
